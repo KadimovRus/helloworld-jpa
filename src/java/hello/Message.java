@@ -7,14 +7,14 @@ import javax.persistence.*;
 public class Message {
 
     @Id @GeneratedValue
-    @Column(name = "ID")
+    @Column(name = "MESS_ID")
     private Long id;
 
-    @Column(name = "MESSAGE_TEXT")
+    @Column(name = "MESS_TEXT")
     private String text;
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "NEXT_MESSAGE_ID")
+    @JoinColumn(name = "NEXT_MESS_ID")
     private Message nextMessage;
 
     Message() {}
