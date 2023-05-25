@@ -7,7 +7,6 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        // Start EntityManagerFactory
         EntityManagerFactory emf =
                 Persistence.createEntityManagerFactory("helloworld");
 

@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Message {
 
     @Id @GeneratedValue
-    @Column(name = "MESSAGE_ID")
+    @Column(name = "ID")
     private Long id;
 
     @Column(name = "MESSAGE_TEXT")
