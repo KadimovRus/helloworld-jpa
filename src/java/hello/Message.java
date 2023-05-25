@@ -20,9 +20,6 @@ public class Message {
     @Column(name="new_column")
     private int newColumn;
 
-    @Column(name="new_column3")
-    private int newColumn3;
-
     @Column(name="new_column2")
     private int newColumn2;
 
