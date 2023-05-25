@@ -17,6 +17,9 @@ public class Message {
     @JoinColumn(name = "NEXT_MESS_ID")
     private Message nextMessage;
 
+    @Column(name="new_column")
+    private int newColumn;
+
     Message() {}
 
     public Message(String text) {
