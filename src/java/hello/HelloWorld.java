@@ -18,10 +18,8 @@ public class HelloWorld {
 
         Message message = new Message("Hello World with JPA");
         em.persist(message);
-
         tx.commit();
         em.close();
-
         // Second unit of work
         EntityManager newEm = emf.createEntityManager();
         EntityTransaction newTx = newEm.getTransaction();
