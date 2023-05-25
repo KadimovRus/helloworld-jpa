@@ -20,6 +20,9 @@ public class Message {
     @Column(name="new_column")
     private int newColumn;
 
+    @Column(name="new_column2")
+    private int newColumn2;
+
     Message() {}
 
     public Message(String text) {
